@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HelpAlunos</title>
+  <!-- Font Awesome para ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <!-- Botão do menu (aparece somente em telas pequenas) -->
+      <button id="menu-btn" class="menu-btn" aria-label="Menu"><i class="fas fa-bars"></i></button>
+      <!-- Nome do site centralizado -->
+      <h1>HelpAlunos</h1>
+      <!-- Botão para alternar modo claro/escuro -->
+      <button id="theme-toggle" class="theme-toggle" aria-label="Alternar Modo">
+        <i class="fas fa-sun"></i>
+      </button>
+    </div>
+    <!-- Menu de navegação -->
+    <nav id="nav-menu" class="nav-menu">
+      <ul>
+        <li><a href="#ajuda">Ajuda</a></li>
+        <li><a href="#informacoes">Informações</a></li>
+        <li><a href="#contatos">Contatos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="funcionalidades">
+      <h2>Funcionalidades</h2>
+      <div class="func-btns">
+        <button class="func-btn" onclick="location.href='#flashcards'">
+          Criação de Flashcards
+        </button>
+        <button class="func-btn" onclick="location.href='#todo'">
+          To-Do List
+        </button>
+        <button class="func-btn" onclick="location.href='#anotacoes'">
+          Anotações
+        </button>
+        <button class="func-btn" onclick="location.href='#materias'">
+          Organizador de Matérias
+        </button>
+        <button class="func-btn" onclick="location.href='#glossario'">
+          Glossário de Termos
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrapper">
+    <p class="nao-lucrativo">&#8482; Projeto de Criação Não Lucrativa</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
