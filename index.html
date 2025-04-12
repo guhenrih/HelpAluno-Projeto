@@ -9,55 +9,61 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="header-container">
-      <!-- Botão do menu (aparece somente em telas pequenas) -->
-      <button id="menu-btn" class="menu-btn" aria-label="Menu"><i class="fas fa-bars"></i></button>
-      <!-- Nome do site centralizado -->
-      <h1>HelpAlunos</h1>
-      <!-- Botão para alternar modo claro/escuro -->
-      <button id="theme-toggle" class="theme-toggle" aria-label="Alternar Modo">
-        <i class="fas fa-sun"></i>
-      </button>
-    </div>
-    <!-- Menu de navegação -->
-    <nav id="nav-menu" class="nav-menu">
-      <ul>
-        <li><a href="#ajuda">Ajuda</a></li>
-        <li><a href="#informacoes">Informações</a></li>
-        <li><a href="#contatos">Contatos</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section id="funcionalidades">
-      <h2>Funcionalidades</h2>
-      <div class="func-btns">
-        <button class="func-btn" onclick="location.href='#flashcards'">
-          Criação de Flashcards
+  <div class="page-container">
+    <header>
+      <div class="header-container">
+        <!-- Botão do menu (aparece somente em telas pequenas) -->
+        <button id="menu-btn" class="menu-btn" aria-label="Menu">
+          <i class="fas fa-bars"></i>
         </button>
-        <button class="func-btn" onclick="location.href='#todo'">
-          To-Do List
-        </button>
-        <button class="func-btn" onclick="location.href='#anotacoes'">
-          Anotações
-        </button>
-        <button class="func-btn" onclick="location.href='#materias'">
-          Organizador de Matérias
-        </button>
-        <button class="func-btn" onclick="location.href='#glossario'">
-          Glossário de Termos
+        <!-- Nome do site centralizado -->
+        <h1>HelpAlunos</h1>
+        <!-- Botão para alternar modo claro/escuro -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Alternar Modo">
+          <i class="fas fa-sun"></i>
         </button>
       </div>
-    </section>
-  </main>
+      <!-- Menu de navegação -->
+      <nav id="nav-menu" class="nav-menu">
+        <ul>
+          <li><a href="#ajuda">Ajuda</a></li>
+          <li><a href="#informacoes">Informações</a></li>
+          <li><a href="#contatos">Contatos</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <footer class="wrapper">
-    <p class="nao-lucrativo">Projeto de Criação Não Lucrativa</p>
-  </footer>
+    <main>
+      <section id="funcionalidades">
+        <h2>Funcionalidades</h2>
+        <div class="func-btns">
+          <button class="func-btn" onclick="location.href='#flashcards'">
+            Criação de Flashcards
+          </button>
+          <button class="func-btn" onclick="location.href='#todo'">
+            To-Do List
+          </button>
+          <button class="func-btn" onclick="location.href='#anotacoes'">
+            Anotações
+          </button>
+          <button class="func-btn" onclick="location.href='#materias'">
+            Organizador de Matérias
+          </button>
+          <button class="func-btn" onclick="location.href='#glossario'">
+            Glossário de Termos
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Mantenha o rodapé como estava -->
+    <footer class="wrapper">
+      <p class="nao-lucrativo">Projeto de Criação Não Lucrativa</p>
+    </footer>
+  </div>
 
   <script src="script.js"></script>
 </body>
+
 </html>
